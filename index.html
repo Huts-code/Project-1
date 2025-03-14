@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project 1</title>
+        <link rel="stylesheet" type="text/css" href="./recources/css/style.css" />
+    </head>
+
+    <body>
+        <!-- The Navbar -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#testform">Form</a></li>
+                <li><a href="#">Nothing</a></li>
+                <li><a href="#">Nothing</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header -->
+        <header id="header">
+            <h1>Test Website</h1>
+        </header>
+
+        <!-- Introduction -->
+        <section>
+            <h2 id="sideheader">
+                On this website I will introduce you to what I can do.
+            </h2>
+            <!-- The Test Form -->
+            <form id="testform" action="answer.html" method="post">
+                <h3>This is a test form. Please fill out this form.</h3>
+                <br />
+                <label for="name">Name:</label>
+                <br />
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    pattern="[A-Za-z]{1,2,3,4,5,6,7,8,9,10}"
+                    title="Only Letters"
+                    required
+                />
+                <br />
+                <br />
+                <label for="surname">Surname:</label>
+                <br />
+                <input
+                    type="text"
+                    name="surname"
+                    id="surname"
+                    placeholder="Surname"
+                    pattern="[A-Za-z]{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}"
+                    title="Only Letters"
+                    required
+                />
+                <br />
+                <br />
+                <label for="age">Age: (14+)</label>
+                <br />
+                <input
+                    type="age"
+                    name="age"
+                    id="age"
+                    placeholder="Age"
+                    pattern="[1-9]{1}[4-9]{1}"
+                    title="Too Young"
+                    required
+                />
+                <br />
+                <br />
+                <label for="email">Email:</label>
+                <br />
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email"
+                    title="Enter an Email"
+                    required
+                />
+                <br />
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+        <footer #class="footer">
+            <p>Created by: Teun</p>
+        </footer>
+    </body>
+</html>
