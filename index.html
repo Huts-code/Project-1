@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project 1</title>
-        <link rel="stylesheet" type="text/css" href="./recources/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./recources/css/style-index.css" />
     </head>
 
     <body>
@@ -19,17 +19,15 @@
         </nav>
 
         <!-- Header -->
-        <header id="header">
+        <header class="header">
             <h1>Test Website</h1>
         </header>
 
         <!-- Introduction -->
         <section>
-            <h2 id="sideheader">
-                On this website I will introduce you to what I can do.
-            </h2>
+            <h2 class="sideheader">On this website I will introduce you to what I can do.</h2>
             <!-- The Test Form -->
-            <form id="testform" action="answer.html" method="get">
+            <form class="testform" action="answer.html" method="get">
                 <h3>This is a test form. Please fill out this form.</h3>
                 <br />
                 <label for="name">Name:</label>
@@ -73,21 +71,16 @@
                 <br />
                 <label for="email">Email:</label>
                 <br />
-                <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                    title="Enter an Email"
-                    required
-                />
+                <input type="email" name="email" id="email" placeholder="Email" title="Enter an Email" required />
                 <br />
                 <br />
                 <input type="submit" value="Submit" />
             </form>
         </section>
-        <footer #class="footer">
-            <p>Created by: Teun</p>
-        </footer>
+		<footer class="footer">
+			<span>Created by: Teun Harings</span>
+			<span>Made in: VSCode</span>
+			<span>For: Project 1</span>
+		</footer>
     </body>
 </html>
