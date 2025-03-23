@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Project 1</title>
+        <link rel="stylesheet" type="text/css" href="./recources/css/style-main.css" />
+    </head>
+
+    <body>
+        <!-- The Navbar -->
+        <nav id="navbar">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#testform">Form</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header -->
+        <header class="header">
+            <h1>Test Website</h1>
+        </header>
+
+        <!-- Introduction -->
+        <section>
+            <h2 class="sideheader">On this website I will introduce you to what I can do.</h2>
+            <!-- The Test Form -->
+            <form class="testform" action="answer.html" method="get">
+                <h3>This is a test form. Please fill out this form.</h3>
+                <br />
+                <label for="name">Name:</label>
+                <br />
+                <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Name"
+                    pattern="[A-Za-z]"
+                    title="Only Letters"
+                    required
+                />
+                <br />
+                <br />
+                <label for="surname">Surname:</label>
+                <br />
+                <input
+                    type="text"
+                    name="surname"
+                    id="surname"
+                    placeholder="Surname"
+                    pattern="[A-Za-z]"
+                    title="Only Letters"
+                    required
+                />
+                <br />
+                <br />
+                <label for="age">Age: (14+)</label>
+                <br />
+                <input
+                    type="age"
+                    name="age"
+                    id="age"
+                    placeholder="Age"
+                    pattern="[1-9]{1}[4-9]{1}"
+                    title="Too Young"
+                    required
+                />
+                <br />
+                <br />
+                <label for="email">Email:</label>
+                <br />
+                <input type="email" name="email" id="email" placeholder="Email" title="Enter an Email" required />
+                <br />
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+        <section>
+
+        </section>
+        <footer class="footer">
+            <span>Created by: Teun Harings</span>
+            <span>Made in: VSCode</span>
+            <span>For: Project 1</span>
+        </footer>
+    </body>
+</html>
